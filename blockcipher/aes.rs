@@ -2,7 +2,7 @@ use std::cast;
 use std::uint;
 
 use simd;
-use simd::ByteSwap;
+use byteswap::ByteSwap;
 use blockcipher::BlockCipher;
 
 macro_rules! debug_block(
