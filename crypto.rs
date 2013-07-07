@@ -19,6 +19,7 @@ pub mod blockcipher {
     pub mod aes;
     pub mod ecb;
     pub mod cbc;
+    pub mod ctr;
 }
 
 enum Direction { Encrypt, Decrypt }
